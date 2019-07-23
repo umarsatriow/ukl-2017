@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 1366px;
+    height: 40px;
+    background:transparent;
+    line-height: 40px;
+    margin: auto;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul ul{
+    display: none;
+    position: absolute;
+    margin-top: 40px;
+    width: 60px;
+}
+.nav ul ul li a{
+    width: 100px;
+    text-align: left;
+    border-radius: 2px;
+    border: 2px solid black;
+    padding-left: 50px;
+    background: white;
+}
+.nav ul li a{
+	float:right;
+	width:150px;
+	text-align:center;
+	color:#000000;
+	text-decoration:none;
+	text-transform:none;
+	background:transparent;
+    font-family: fantasy;
+}
+.nav ul li a:hover{
+	background:rgba(128, 124, 120, 0.69);
+}
+
+.nav ul li:hover ul{
+	display:block;
+	animation:fadeIn 1s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+.nav ul ul li a:hover{
+	background:#c8ad89;
+}
+.header {
+    width: 800px;
+    height: 480px;
+    background-color: bisque;
+    float: right;
+}
+
+
+.benteng {
+    width: 1366px;
+    background-color: azure;
+    height: 500px;
+}
+
+.header2 {
+    float: left;
+    background-color: antiquewhite;
+    width: 200px;
+    height: 480px;
+}
+
+.header3 {
+    width: 366px;
+    height: 480px;
+    background-color: beige;
+    float: right;
+}
+
+.vloge {
+    margin: auto;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 30px;
+}
+.headercrud {
+    width: 1366px;
+    height: 480px;
+    background-color: bisque;
+    float: right;
+}
+.none{
+    text-decoration: none;
+    color: black;
+}
+.none:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.info {
+    float: left;
+    background: pink;
+    width: 565px;
+    height: 150px;
+    padding-bottom: 10px;
+}
+table, th, td {
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 10px;
+}

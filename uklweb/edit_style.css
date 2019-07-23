@@ -1,0 +1,105 @@
+
+.body_login {
+    
+    max-width:50%;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    margin-top: 1px;
+    border-radius: 10px 10px;
+}
+input[type="email"],input[type="text"], input[type="password"],textarea,input[type="date"],select{
+    font-size: 1em;
+    padding: .50em;
+    width: 200px;
+    margin-bottom: 0.3em;
+    font-family: cursive;
+}
+
+input[name="telp"],select[name="agama"]{
+    margin-left: 1px;
+}
+select {
+width: 220px;
+height: 42px;
+}
+input[type="date"]{
+ height: 23px;   
+}
+input[type="submit"]{
+    width: 120px;
+    height: 42px;
+    font-family: cursive;
+    border-radius: 20px;
+}
+label{
+    color: #ffffff;
+    
+}
+.daftar{
+    text-decoration: none;
+    color: white;
+}
+.daftar:hover{
+    color: black;
+}
+input[type="submit"]:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
+.werno{
+   background-color: rgba(0, 0, 0, 0.1);
+    margin: auto;
+    height: 600px;
+}
+.sudahpunya {
+    color: white;
+}
+input[type="submit"]:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.daftar2{
+    margin-top: 110px;
+    color: white;
+    background: transparent;
+    width: 2em;
+    font-size: 20px;
+    font-weight: 40;
+    border: 2px solid rgba(255,255,255,0.75);
+    border-radius: 50px;
+    margin: auto;
+    margin-right: 5px;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.benteng {
+        width: 440px;
+        height: 120px;
+        margin: auto;
+        background-color: ;
+    }
+
+.benteng2 {
+    width: 50%;
+    float: left;
+}
+
+.benteng3 {
+    width: 50%;
+    float: right; 
+    padding-top: 1px;
+}

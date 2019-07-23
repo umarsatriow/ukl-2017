@@ -1,0 +1,144 @@
+.headercrud {
+    width: 1366px;
+    height: 480px;
+    background-color: bisque;
+    float: right;
+}
+
+
+.benteng {
+    width: 1366px;
+    background-color: #9ec1c1;
+    height: 500px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 1366px;
+    height: 40px;
+    background:transparent;
+    line-height: 40px;
+    margin: auto;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul ul{
+    display: none;
+    position: absolute;
+    margin-top: 40px;
+    width: 60px;
+}
+.nav ul ul li a{
+    width: 100px;
+    text-align: left;
+    border-radius: 2px;
+    border: 2px solid black;
+    padding-left: 50px;
+    background: white;
+}
+.nav ul li a{
+	float:right;
+	width:150px;
+	text-align:center;
+	color:#000000;
+	text-decoration:none;
+	text-transform:none;
+	background:transparent;
+    font-family: fantasy;
+}
+.nav ul li a:hover{
+	background:rgba(128, 124, 120, 0.69);
+}
+
+.nav ul li:hover ul{
+	display:block;
+	animation:fadeIn 1s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+.nav ul ul li a:hover{
+	background:#c8ad89;
+}
+.kiri {
+    width: 50%;
+    float: left;
+    height: 450px;
+    background-color: blanchedalmond;
+    
+}
+
+.kanan {
+    width: 50%;
+    float: right;
+    height: 450px;
+    background-color: blanchedalmond;
+}
+
+.kotak1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 100%;
+    margin-top: 100px;
+    float: right;
+    margin-right: 5px;
+    color: rgba(255,255,255,0);
+}
+
+.kotak1:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    border: 1px solid black;
+    color: black;
+}
+
+
+
+.kotak2 {
+    color: rgba(255,255,255,0);
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #c93c5d;
+    border-radius: 100%;
+    margin-top: 100px;
+    margin-left: 5px;
+    float: left;
+}
+.kotak2:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    border: 1px solid black;
+    color: black
+}
+
+.hedit {
+    padding-top: 75px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.hapus {
+    padding-top: 75px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+}

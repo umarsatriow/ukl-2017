@@ -1,0 +1,105 @@
+body{
+    background:transparent;
+    overflow: hidden;
+    margin: 0;
+}
+#gambar{
+    width: 100px;
+    height: 100px;
+    padding-top: -150px;
+}
+.gambar{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 680px;
+    position: absolute;
+    left: 900px;
+    top: 80px;
+    animation: 2s fadein ease-out;
+}
+
+.kartu{
+    background-color: #4a5255;
+    width: 50%;
+    height: 350px;
+    box-shadow: -1px 2px 0px 7px #ffffff;
+    margin-top: 150px;
+    margin-left: 200px; 
+    animation: 2s kartu ease-out;
+}
+.kartu .judul{
+    background-color: #1a9d84;
+}
+.kartu .judul h1{
+    text-align: center;
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-top: 20px;
+}
+
+.kartu .penting{
+    background-color: white;
+    width: 100%;
+    height: 250px;      
+}
+
+.kartu .penting .foto{
+    width: 35%;
+    height: 250px;
+    background-color: black;
+    float: left;
+}
+
+.kartu .penting .data{
+    width: 65%;
+    height: 250px;
+    background:  white;
+    float: left;
+}
+
+.data h1{
+    padding-left: 20px;
+    font-size: 36px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.data img{
+    width: 30px;
+    height:30px;
+    cursor:pointer;
+    float: right;
+    margin-top: -50px;
+    margin-right: 20px;
+}
+
+@-webkit-keyframes fadein{
+    0%{
+        opacity: 0;
+        top: -100px;
+    }
+    50%{
+        opacity: 0.5;
+        top: 130px;
+    }
+    100%{
+        opacity: 1;
+        top: 80px;
+    }
+}
+
+@-webkit-keyframes kartu{
+    0%{
+        opacity: 0;
+        transform: scale(0.2);        
+    }
+    50%{
+        opacity: 0.5;
+        transform: scale(1.1);   
+    }
+    100{
+        opacity: 1;
+        transform: scale(1);
+        display: block;
+    }
+}
